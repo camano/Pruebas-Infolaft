@@ -1,7 +1,7 @@
 # prueba-infolaft
 
-1. ejecutar el script
-    CREATE DATABASE dbinfolaft;
+1. Ejecutar el jar mvn clean install
+
 2. ejecutar docker-compose up 
 
 3. ejecutar para llenar los estados 
