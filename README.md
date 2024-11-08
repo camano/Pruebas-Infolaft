@@ -1,10 +1,10 @@
 # prueba-infolaft
 
-1. Ejecutar el jar mvn clean install
+1. Generar el jar mvn clean install
 
-2. ejecutar docker-compose up 
+2. Ejecutar docker-compose up 
 
-3. ejecutar para llenar los estados 
+3. Ejecutar para llenar los estados 
    INSERT INTO public.estado (estado_id,nombre_estado) VALUES
       (1,'COMPLETADA'),
       (2,'PENDIENTE');
