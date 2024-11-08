@@ -10,7 +10,7 @@ services:
     depends_on:
       - infolaft_db
     environment:
-      - SPRING_DATASOURCE_URL=jdbc:postgresql://java_db:5432/dbinfolaft
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://infolaft_db:5432/dbinfolaft
       - SPRING_DATASOURCE_USERNAME=postgres
       - SPRING_DATASOURCE_PASSWORD=root
       - SPRING_JPA_HIBERNATE_DDL_AUTO=update
@@ -19,7 +19,7 @@ services:
       - pruebaInfolaft
 
   infolaft_db:
-    container_name: db_infolaft
+    container_name: infolaft_db
     image: postgres
     ports:
       - 5432:5432
